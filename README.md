@@ -33,6 +33,8 @@ This repository documents my transition into the IT industry. I'm building pract
 - Screenshots from labs
 - Progress as I develop my IT skills
 
+## Current Project: Borealis Technologies Home Lab
+
 ## About Me
 
 I'm currently transitioning into IT while working full-time in management. My goal is to build a strong foundation in IT support and system administration through consistent practice and real-world projects.
