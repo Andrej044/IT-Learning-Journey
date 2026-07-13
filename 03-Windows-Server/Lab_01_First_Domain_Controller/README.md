@@ -25,4 +25,15 @@ Allocated Resources:
     - DISK: 50GB;
 
 Status:
-    - Installing Windows Server...
+    - Installing Windows Server... - done!
+
+## Lab Network Design
+VirtualBox NAT Network
+
+Network: 10.10.10.0/24
+
+Planned IPs:
+- BT-DC01 - 10.10.10.10
+- BT-CL01 - 10.10.10.20
+- BT-FS01 - 10.10.10.30
+
