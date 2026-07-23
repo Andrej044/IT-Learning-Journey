@@ -19,4 +19,17 @@
      - STOR(store) is used to upload a file from the client tto the FTP server
      
      FTP server listens on TCP port 21 by default 
+  
+  ## SMTP
+     Simple Mail Transfer Protocol (SMTP) defines howe a mail client
+     talks with a mail server and how a mail server talks with another
+     
+     - HELO or EHLO initiates an SMTP session
+     - MAIL FROM specifies the sender's email address
+     - RCPT TO specifies the recipient's email address
+     - DATA indicates that the client will begin sending 
+       the content of the email message
+     - . is sent on a line by itself to indicate the end of
+       the email message
       
+      The SMTP server listens on TCP port 25 default.
