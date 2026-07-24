@@ -1,5 +1,7 @@
 # Telnet lab - Learn about the core TCP/IP protocols
 
+
+# Lab_1
 ## Targets
     - Reach to remote Server(10.64.157.148)
     - Use metod GET
@@ -17,3 +19,14 @@
 ## Terminal promts
     - telnet 10.64.157.148 80
     - GET /flag.html HTTP/1.1
+
+# Lab_2
+## Targets
+    - Learn how to SMTP works
+
+## Terminal promts
+    - telnet 10.67.173.92 25
+    - HELO client.thm
+    - RCPT TO: strategos@server.thm
+    - DATA
+            
