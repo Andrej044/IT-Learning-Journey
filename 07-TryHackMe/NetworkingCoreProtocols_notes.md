@@ -33,3 +33,19 @@
        the email message
       
       The SMTP server listens on TCP port 25 default.
+      
+ ## POP3
+     The Post Office Protocol version 3 (POP3) is designed to allow 
+     the client to communicate with a mail server and retrieve email 
+     messages.
+     
+     - USER <username> identifies the user
+     - PASS <password> provides the user's password
+     - STAT request the number of messages and total size
+     - LIST lists all messages and their sizes
+     - RETR <message_number> retrieves the specified message
+     - DELE <message_number> marks a message for deletion
+     - QUIT end the POP3 session applying changes
+     
+     POP3 server listens on TCP port 110 by default
+     
