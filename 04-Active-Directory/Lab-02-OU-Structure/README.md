@@ -26,6 +26,8 @@ This will allow department - specific Group Policies and delegated administratio
 - Sales
 - Servers
 - Workstations
+- Groups
+- Disabled Objects
 
 ---
 
