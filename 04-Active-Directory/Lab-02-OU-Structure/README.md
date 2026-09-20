@@ -41,7 +41,9 @@ In this lab I learned how to:
 ```mermaid
 graph TD
     BT["bt.local"]
-    BT --> Admin
+    BT --> Administration
+    Administration --> Users
+    Administration --> Computers 
     BT --> Finance
     BT --> HR
     BT --> IT
