@@ -42,15 +42,24 @@ In this lab I learned how to:
 graph TD
     BT["bt.local"]
     BT --> Administration
-    Administration --> Users
-    Administration --> Computers 
+        Administration --> Users
+        Administration --> Computers 
     BT --> Finance
+        Finance --> Users
+        Finance --> Computers 
     BT --> HR
+        HR --> Users
+        HR --> Computers 
     BT --> IT
+        IT --> Users
+        IT --> Computers 
     BT --> Sales
+        Sales --> Users
+        Sales --> Computers 
     BT --> Groups
     BT --> Servers
     BT --> Workstations
+    BT --> Disabled Objects
 ```
 
 ---
