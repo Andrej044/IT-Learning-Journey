@@ -38,32 +38,18 @@ In this lab I learned how to:
 
 ## Final Architecture
 
-bt.local
-│
-├── Administration
-│   ├── Users
-│   └── Computers
-│
-├── Finance
-│   ├── Users
-│   └── Computers
-│
-├── HR
-│   ├── Users
-│   └── Computers
-│
-├── IT
-│   ├── Users
-│   └── Computers
-│
-├── Sales
-│   ├── Users
-│   └── Computers
-│
-├── Groups
-├── Servers
-├── Workstations
-└── Disabled Objects
+```mermaid
+graph TD
+    BT["bt.local"]
+    BT --> Admin
+    BT --> Finance
+    BT --> HR
+    BT --> IT
+    BT --> Sales
+    BT --> Groups
+    BT --> Servers
+    BT --> Workstations
+```
 
 ---
 
