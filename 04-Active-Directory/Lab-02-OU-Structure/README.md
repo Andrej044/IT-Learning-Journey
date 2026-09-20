@@ -38,6 +38,9 @@ In this lab I learned how to:
 
 ## Final Architecture
 
+## Final Architecture
+
+```text
 bt.local
 │
 ├── Administration
@@ -64,6 +67,7 @@ bt.local
 ├── Servers
 ├── Workstations
 └── Disabled Objects
+```
 
 ---
 
